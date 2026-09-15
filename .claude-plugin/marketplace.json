@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "effort-router",
+  "owner": {
+    "name": "Cedric Fitzgerald"
+  },
+  "plugins": [
+    {
+      "name": "effort-router",
+      "source": {
+        "source": "github",
+        "repo": "cjfit/effort-router"
+      },
+      "description": "Automatically routes each Claude Code request to an appropriate reasoning effort level."
+    }
+  ]
+}
